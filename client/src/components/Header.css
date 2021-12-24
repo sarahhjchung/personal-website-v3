@@ -1,0 +1,33 @@
+.header {
+    overflow: hidden;
+    margin: 20px 10px;
+}
+
+.headerRight {
+    float: right;
+}
+
+#logo {
+    font-weight: 600;
+}
+
+.header a {
+    display: inline-block;
+    width: 75px;
+    text-decoration: none;
+    padding: 8px 40px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.header a:hover {
+    opacity: 70%;
+}
+
+.active {
+    font-weight: 600;
+}
+
+hr {
+    border-top: 2px solid black;
+}

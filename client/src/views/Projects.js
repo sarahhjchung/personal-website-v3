@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from '../components/Header';
 
 export default function Projects() {
     return (
-        <h1>
-            My projects
-        </h1>
+        <div>
+            <Header active='projects'/>
+        </div>
     )
 }
