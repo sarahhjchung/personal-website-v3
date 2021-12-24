@@ -1,0 +1,18 @@
+.icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 36px;
+    right: 10px;
+    bottom: 50px; 
+}
+
+#github {
+    width: 24px;
+}
+
+#linkedin {
+    width: 20px;
+}

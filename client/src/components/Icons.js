@@ -1,25 +1,47 @@
 import React from 'react'
-import './Icon.css';
+import {ReactComponent as Email} from '../assets/email.svg'
+import {ReactComponent as Github} from '../assets/github.svg'
+import {ReactComponent as Linkedin} from '../assets/linkedin.svg'
+import {ReactComponent as Resume} from '../assets/resume.svg'
+
+import './Icons.css';
+
+import resume from "../assets/resume.pdf";
+
+import { Tooltip } from "react-tippy";
+import "react-tippy/dist/tippy.css";
 
 export default function Icons() {
     return (
-        <div className='header'>
-            <hr />
-            <a id='logo' href='/'>
-                Sarah Chung
-            </a>
-            <div className='headerRight'>
-                <a href='/about' className={active.active === 'about' ? 'active' : ''}>
-                    About Me
+        <div className='icon'>
+            <Tooltip title="Email me!" position="left" trigger="mouseenter">
+                <a href="mailto: sarahc0304@gmail.com">
+                    <Email />
                 </a>
-                <a href='/projects' className={active.active === 'projects' ? 'active' : ''}>
-                    My Projects
+            </Tooltip>
+            <Tooltip title="My Resume" position="left" trigger="mouseenter">
+                <a href={resume} target="_blank" rel="noreferrer">
+                    <Resume />
                 </a>
-                <a href='/work' className={active.active === 'work' ? 'active' : ''}>
-                    Work Experience
+            </Tooltip>
+            <Tooltip title="My Github" position="left" trigger="mouseenter">
+                <a
+                href="https://github.com/sarahhjchung"
+                target="_blank"
+                rel="noreferrer"
+                >
+                    <Github />
                 </a>
-            </div>
-            <hr />
+            </Tooltip>
+            <Tooltip title="My LinkedIn" position="left" trigger="mouseenter">
+                <a
+                href="https://www.linkedin.com/in/sarah-chung-59a923202/"
+                target="_blank"
+                rel="noreferrer"
+                >
+                    <Linkedin />
+                </a>
+            </Tooltip>
         </div>
     )
 }

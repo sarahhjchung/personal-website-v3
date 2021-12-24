@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header';
 import image from '../assets/home1.png'
 import './Home.css';
+import Icons from '../components/Icons';
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
                         things you can find in this large field!</p>
                 </div>
             </div>
+            <Icons />
         </div>
     )
 }
