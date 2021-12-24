@@ -1,0 +1,26 @@
+{
+  "name": "personal-website-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "setup": "npm install && cd client && npm install && cd ..",
+    "build-run": "cd client && npm run build && cd .. && node server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahhjchung/personal-website-v3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahhjchung/personal-website-v3/issues"
+  },
+  "homepage": "https://github.com/sarahhjchung/personal-website-v3#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
