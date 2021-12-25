@@ -10,9 +10,11 @@
 }
 
 #github {
-    width: 24px;
+    width: 20px;
+    margin-top: 1px;
 }
 
 #linkedin {
     width: 20px;
+    margin-top: 1px;
 }

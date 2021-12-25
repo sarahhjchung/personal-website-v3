@@ -1,0 +1,9 @@
+.aboutContainer {
+    margin: 0px 50px;
+    display: inline-block;
+}
+
+#aboutImage {
+    width: 45%;
+    float: right;
+}

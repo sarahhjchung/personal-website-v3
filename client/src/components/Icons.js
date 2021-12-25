@@ -1,7 +1,7 @@
 import React from 'react'
 import {ReactComponent as Email} from '../assets/email.svg'
 import {ReactComponent as Github} from '../assets/github.svg'
-import {ReactComponent as Linkedin} from '../assets/linkedin.svg'
+import {ReactComponent as LinkedIn} from '../assets/linkedin.svg'
 import {ReactComponent as Resume} from '../assets/resume.svg'
 
 import './Icons.css';
@@ -30,7 +30,7 @@ export default function Icons() {
                 target="_blank"
                 rel="noreferrer"
                 >
-                    <Github />
+                    <Github id='github'/>
                 </a>
             </Tooltip>
             <Tooltip title="My LinkedIn" position="left" trigger="mouseenter">
@@ -39,7 +39,7 @@ export default function Icons() {
                 target="_blank"
                 rel="noreferrer"
                 >
-                    <Linkedin />
+                    <LinkedIn id='linkedin'/>
                 </a>
             </Tooltip>
         </div>
