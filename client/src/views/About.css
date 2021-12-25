@@ -1,9 +1,54 @@
 .aboutContainer {
     margin: 0px 50px;
     display: inline-block;
+    overflow: auto;
+    position: fixed;
+    top: 110px;
 }
 
 #aboutImage {
     width: 45%;
-    float: right;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+}
+
+.aboutContent {
+    height: 550px;
+    width: 40%;
+    display: inline-block;
+    margin: 100px 0px 20px 50px;
+}
+
+.glassContainer {
+    border: 2px solid white;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: linear-gradient(white, rgba(255, 255, 255, 0));
+    box-shadow: 3px 6px 10px #cbcbcb; 
+    padding: 30px 50px;
+    margin: 10px 20px 30px 0px;
+    width: 80%;
+}
+
+.funFact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.funFactIcon {
+    width: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+td {
+    padding: 0px 20px 5px 0px;
 }

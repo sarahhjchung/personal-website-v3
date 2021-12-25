@@ -1,5 +1,5 @@
 .icon {
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,6 +7,7 @@
     width: 36px;
     right: 10px;
     bottom: 50px; 
+    z-index: 50;
 }
 
 #github {
