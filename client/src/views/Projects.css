@@ -1,0 +1,29 @@
+.projectsPage {
+    background-image: url('../assets/projects.png');
+    background-size: 100% auto;
+}
+
+.projectsHeader {
+    margin: 150px 50px 20px;
+}
+
+.carousel {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.allProjectsHeader {
+    margin-left: 50px;
+}
+
+.allProjectsContainer {
+    margin: 20px 50px;
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: 23% 23% 23% 23%;
+}
+
+.allProjectsContainer a {
+    text-decoration: none;
+    color: black;
+}

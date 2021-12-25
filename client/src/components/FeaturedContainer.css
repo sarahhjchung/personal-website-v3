@@ -1,0 +1,51 @@
+.featuredProjectContainer {
+    background-image: linear-gradient(white, rgba(255, 255, 255, 0), white);
+    border-radius: 15px;
+    padding: 40px 80px;
+    display: flex;
+}
+
+.projectContent {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    margin-right: 20px;
+    line-height: 0px;
+}
+
+.projectTitle {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.projectDescription {
+    line-height: normal;
+    margin: 20px 0px;
+}
+
+.projectInstructions {
+    line-height: normal;
+    font-size: x-small;
+}
+
+.projectTools {
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+.projectEtc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.projectImg {
+    height: 90%;
+}
+
+.projectImg img {
+    box-shadow: 3px 6px 10px #cbcbcb; 
+    border-radius: 15px;
+}
