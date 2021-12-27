@@ -135,6 +135,13 @@ export default function About() {
                         </tr>
                     </table>
                 </div>
+                <div className='glassContainer'>
+                    <h3>Say hello!</h3>
+                    <p>
+                        Feel free to click on the icons on the bottom 
+                        right to check out my resume or any of my socials.
+                    </p>
+                </div>
             </div>
             <img id='aboutImage' src={image} alt='phone'/>
             <Icons />
