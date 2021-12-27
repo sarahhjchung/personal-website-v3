@@ -13,6 +13,9 @@ import outhouse from '../assets/outhouse.png'
 import chatty from '../assets/chatty.png'
 import dataproject from '../assets/dataproject.png'
 import datadiscussion from '../assets/dataproject.pdf'
+import lofi from '../assets/lofi.mp4'
+import blocky from '../assets/blocky.mp4'
+import chxrry from '../assets/chxrry.mp4'
 
 export default function Projects() {
     return (
@@ -63,38 +66,69 @@ export default function Projects() {
                 </Carousel>
                 <h1 className='allProjectsHeader'>All Projects</h1>
                 <div className='allProjectsContainer'>
-                    <a href='https://google.com'>
-                        <ProjectContainer 
-                        title='Lofi Adventures'
-                        description='A platform video game with original artwork 
-                        and music.'
-                        tools='Python - Pygame'
-                        />
-                    </a>
-                    
+                    <ProjectContainer 
+                    title='Lofi Adventures'
+                    description='A platform video game with original artwork 
+                    and music.'
+                    tools='Python - Pygame'
+                    link={lofi}
+                    />
                     <ProjectContainer 
                     title='LifeOS'
                     description='A productivity chrome extension made for 
                     nwHacks 2021.'
                     tools='Mithril JS - HTML - CSS'
+                    link='https://devpost.com/software/lifeos'
                     />
                     <ProjectContainer 
                     title='Conference Manager'
                     description='An app to help organize and manage conferences 
                     made for a software design course.'
                     tools='Java'
+                    link='https://github.com/sarahhjchung/conference-planning-app'
                     />
                     <ProjectContainer 
                     title='Fitapp'
                     description='A fitness webapp for users to post health blogs 
                     and view posts others have uploaded.'
                     tools='React JS - PHP'
+                    link='https://github.com/sarahhjchung/fitapp'
                     />
-                    <ProjectContainer title='Personal Website V2'/>
-                    <ProjectContainer title='Blocky'/>
-                    <ProjectContainer title='Chxrrypie'/>
-                    <ProjectContainer title='Spirit Issue'/>
-                    <ProjectContainer title='Personal Website V1'/>
+                    <ProjectContainer 
+                    title='Personal Website V2'
+                    description='My second version of my personal portfolio. I was 
+                    very indecisive with my colour palette.'
+                    tools='React JS - Tailwind CSS'
+                    link='https://personal-website-sarahhjchung.vercel.app/'
+                    />
+                    <ProjectContainer 
+                    title='Blocky'
+                    description='A video game that I implemented different features
+                    for in an Intro to Computer Science course.'
+                    tools='Python - Pygame'
+                    link={blocky}
+                    />
+                    <ProjectContainer 
+                    title='Chxrrypie'
+                    description='My first website I created in HTML and CSS for 
+                    a digital illustrator with over 120 000 followers.'
+                    tools='HTML - CSS'
+                    link={chxrry}
+                    />
+                    <ProjectContainer 
+                    title='Spirit'
+                    description='The first web issue for Hart House DEMO that I 
+                    worked on as one of the web developers.'
+                    tools='Webflow'
+                    link='https://www.demomagazine.ca/spirit'
+                    />
+                    <ProjectContainer 
+                    title='Personal Website V1'
+                    description='My first version of my personal portfolio that is
+                    also connected to Google Analytics.'
+                    tools='HTML - Bootstrap CSS'
+                    link='https://sarahhjchung.github.io/'
+                    />
                 </div>
             </div>
             <Icons />

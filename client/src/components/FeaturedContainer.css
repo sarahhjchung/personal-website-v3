@@ -3,20 +3,22 @@
     border-radius: 15px;
     padding: 40px 80px;
     display: flex;
+    height: 400px;
 }
 
 .projectContent {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: justify;
     width: 50%;
-    margin-right: 20px;
+    margin-right: 40px;
     line-height: 0px;
 }
 
 .projectTitle {
     font-weight: 600;
     text-transform: uppercase;
+    line-height: normal;
 }
 
 .projectDescription {
@@ -40,10 +42,10 @@
     flex-direction: column;
     text-align: right;
 }
-
+/* 
 .projectImg {
     height: 90%;
-}
+} */
 
 .projectImg img {
     box-shadow: 3px 6px 10px #cbcbcb; 
