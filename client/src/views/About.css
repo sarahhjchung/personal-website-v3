@@ -1,54 +1,53 @@
 .aboutContainer {
-    margin: 0px 50px;
-    display: inline-block;
-    overflow: auto;
-    position: fixed;
-    top: 110px;
+  margin: 0px 50px;
+  display: inline-block;
+  overflow: auto;
+  position: fixed;
+  top: 110px;
 }
 
 #aboutImage {
-    width: 45%;
-    position: fixed;
-    top: 100px;
-    right: 20px;
+  width: 45%;
+  position: fixed;
+  top: 100px;
+  right: 20px;
 }
 
 .aboutContent {
-    height: 550px;
-    width: 40%;
-    display: inline-block;
-    margin: 100px 0px 20px 50px;
+  height: 550px;
+  width: 40%;
+  display: inline-block;
+  margin: 100px 0px 20px 50px;
 }
 
 .glassContainer {
-    border: 2px solid white;
-    display: inline-block;
-    border-radius: 15px;
-    background-image: linear-gradient(white, rgba(255, 255, 255, 0));
-    box-shadow: 3px 6px 10px #cbcbcb; 
-    padding: 30px 50px;
-    margin: 10px 20px 30px 0px;
-    width: 80%;
+  display: inline-block;
+  border-radius: 20px;
+  background: #e6e3e3;
+  box-shadow: 12px 12px 37px #d4d4d4, -12px -12px 37px #ffffff;
+  padding: 30px 50px;
+  margin: 10px 20px 30px 0px;
+  width: 80%;
 }
 
 .funFact {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .funFactIcon {
-    width: 24px;
+  width: 24px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 td {
-    padding: 0px 20px 5px 0px;
+  padding: 0px 20px 5px 0px;
 }
